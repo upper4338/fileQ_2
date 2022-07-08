@@ -15,22 +15,22 @@ public class PostServiceImpl implements PostService {
     static {
         PostModel p1 = new PostModel(
                 UUID.randomUUID().toString(),
-                UUID.randomUUID().toString(),
-                UUID.randomUUID().toString(),
+                "1",
+                "2",
                 "Post 1",
                 "Status 1"
         );
         PostModel p2 = new PostModel(
                 UUID.randomUUID().toString(),
-                UUID.randomUUID().toString(),
-                UUID.randomUUID().toString(),
+                "1",
+                "2",
                 "Post 2",
                 "Status 2"
         );
         PostModel p3 = new PostModel(
                 UUID.randomUUID().toString(),
-                UUID.randomUUID().toString(),
-                UUID.randomUUID().toString(),
+                "2",
+                "1",
                 "Post 3",
                 "Status 3"
         );

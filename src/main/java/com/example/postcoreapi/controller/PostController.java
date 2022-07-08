@@ -46,4 +46,9 @@ public class PostController {
         postService.deletePostById(postId);
         return new ResponseEntity<>("Successfully deleted", HttpStatus.OK);
     }
+
+    @GetMapping("/check")
+    public String checkPost() {
+        return "post-core-api is working";
+    }
 }
